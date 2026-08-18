@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Course deliverable copies, kept out of the public repo (Markdown lives in docs/)
+*.docx

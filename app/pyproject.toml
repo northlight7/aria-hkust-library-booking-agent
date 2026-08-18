@@ -1,0 +1,36 @@
+[project]
+name = "library-booking-agent"
+version = "0.2.0"
+description = "HKUST library room booking agent with voice assistant (AI Literacy course, Path A exemplar)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "lxml>=6.1.1",
+    "openai>=1.0.0",
+    "playwright>=1.61.0",
+    "requests>=2.34.2",
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+    "python-docx>=1.2.0",
+    "kokoro-onnx>=0.5.0",
+    # onnxruntime (pulled in by kokoro-onnx for the offline voice) stopped
+    # shipping Intel macOS wheels after 1.23.2; from 1.24 macOS is arm64
+    # only. Without this bound, `uv sync` fails outright on any Intel Mac
+    # because there is no wheel and no sdist to fall back to.
+    # kokoro-onnx needs >=1.20.1, so 1.23.2 satisfies it.
+    "onnxruntime<=1.23.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.uv]
+# Aria is a set of scripts, not an installable library. Without this uv
+# would try to build and install the project itself during `uv sync`.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

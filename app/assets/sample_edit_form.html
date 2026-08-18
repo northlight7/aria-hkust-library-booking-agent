@@ -1,0 +1,52 @@
+<!--
+  sample_edit_form.html
+  A trimmed, realistic copy of the MRBS booking form (edit_entry.php) so the
+  agent's booking code can be tested WITHOUT logging in or touching the real
+  library site. The important parts are the hidden fields and the csrf_token,
+  which the real server also sends. Booker-identifying values are fake.
+-->
+<!DOCTYPE html>
+<html>
+<head><title>HKUST Library - Book Room</title></head>
+<body>
+<form id="main" class="form_general" action="edit_entry_handler.php" method="post">
+  <input type="hidden" name="csrf_token" value="SAMPLE0000csrf0000token0000forTESTINGonly0000abcdef1234567890">
+  <input type="hidden" name="returl" value="https://lbbooking.hkust.edu.hk/calendar/day.php?year=2026&amp;month=7&amp;day=15&amp;area=3&amp;room=126">
+  <input type="hidden" name="create_by" value="dsheng">
+  <input type="hidden" name="rep_id" value="0">
+  <input type="hidden" name="edit_type" value="series">
+  <input type="hidden" name="original_room_id" value="126">
+  <input type="hidden" name="ical_uid" value="MRBS-sample@lbbooking.hkust.edu.hk">
+  <input type="hidden" name="ical_sequence" value="0">
+  <input type="hidden" name="ical_recur_id" value="">
+
+  <!-- Booking title + description (these are what the user fills in) -->
+  <input type="text" name="name" value="">
+  <textarea name="description"></textarea>
+
+  <!-- Time. MRBS uses seconds-since-midnight for start/end. -->
+  <input type="hidden" name="start_date" value="2026-07-15">
+  <input type="hidden" name="end_date" value="2026-07-15">
+  <input type="text" name="start_seconds" value="50400">
+  <input type="text" name="end_seconds" value="54000">
+  <input type="checkbox" name="all_day" value="yes">
+
+  <!-- Which room(s). This install books one room at a time. -->
+  <select name="rooms[]">
+    <option value="126" selected>1-350 (8)</option>
+    <option value="28">1-351 (5)</option>
+  </select>
+
+  <!-- Booking type (letter code). "T" is the normal student booking type. -->
+  <select name="type">
+    <option value="T" selected>Booking</option>
+  </select>
+
+  <!-- No repeat for a single booking. -->
+  <input type="hidden" name="rep_type" value="0">
+
+  <input type="hidden" name="confirmed" value="1">
+  <input type="submit" name="commit" value="Save">
+</form>
+</body>
+</html>

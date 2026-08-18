@@ -1,0 +1,14 @@
+# Virtual environments
+.venv
+
+# Auth — NEVER commit
+config.json
+auth_state.json
+
+# Downloaded TTS voice model (~337MB, fetched on first run)
+voices/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

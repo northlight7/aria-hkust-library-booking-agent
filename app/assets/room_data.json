@@ -1,0 +1,1236 @@
+{
+  "10": {
+    "name": "LC Creative Media Zone",
+    "room_count": 5,
+    "rooms": [
+      {
+        "id": "53",
+        "name": "AV Editing Suite A",
+        "capacity": "2",
+        "total_slots": 30,
+        "free": 23,
+        "busy": 0,
+        "blocked": 7,
+        "bookable": true
+      },
+      {
+        "id": "54",
+        "name": "AV Editing Suite B",
+        "capacity": "2",
+        "total_slots": 30,
+        "free": 23,
+        "busy": 0,
+        "blocked": 7,
+        "bookable": true
+      },
+      {
+        "id": "55",
+        "name": "AV Editing Suite C",
+        "capacity": "2",
+        "total_slots": 30,
+        "free": 23,
+        "busy": 0,
+        "blocked": 7,
+        "bookable": true
+      },
+      {
+        "id": "56",
+        "name": "AV Editing Suite D",
+        "capacity": "2",
+        "total_slots": 30,
+        "free": 23,
+        "busy": 0,
+        "blocked": 7,
+        "bookable": true
+      },
+      {
+        "id": "51",
+        "name": "Media Production Studio",
+        "capacity": "20",
+        "total_slots": 30,
+        "free": 30,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      }
+    ]
+  },
+  "13": {
+    "name": "Computers",
+    "room_count": 5,
+    "rooms": [
+      {
+        "id": "96",
+        "name": "Bloomberg 1",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 19,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "97",
+        "name": "Bloomberg 2",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "105",
+        "name": "EHPDCL 1",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "106",
+        "name": "EHPDCL 2",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "100",
+        "name": "Reference Standalone",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      }
+    ]
+  },
+  "14": {
+    "name": "3D Printers",
+    "room_count": 2,
+    "rooms": [
+      {
+        "id": "101",
+        "name": "Printer 1",
+        "capacity": null,
+        "total_slots": 2,
+        "free": 2,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      },
+      {
+        "id": "102",
+        "name": "Printer 2",
+        "capacity": null,
+        "total_slots": 2,
+        "free": 2,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      }
+    ]
+  },
+  "19": {
+    "name": "Nap Pods",
+    "room_count": 2,
+    "rooms": [
+      {
+        "id": "109",
+        "name": "Nap Pod 1",
+        "capacity": "1",
+        "total_slots": 29,
+        "free": 24,
+        "busy": 1,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "111",
+        "name": "Nap Pod 2",
+        "capacity": "1",
+        "total_slots": 29,
+        "free": 23,
+        "busy": 2,
+        "blocked": 4,
+        "bookable": true
+      }
+    ]
+  },
+  "20": {
+    "name": "Study Pods",
+    "room_count": 9,
+    "rooms": [
+      {
+        "id": "112",
+        "name": "POD-01",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "113",
+        "name": "POD-02",
+        "capacity": "2",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "114",
+        "name": "POD-03",
+        "capacity": "2",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "115",
+        "name": "POD-04",
+        "capacity": "1",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "116",
+        "name": "POD-05",
+        "capacity": "1",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "117",
+        "name": "POD-06",
+        "capacity": "1",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "118",
+        "name": "POD-07",
+        "capacity": "2",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "119",
+        "name": "POD-08",
+        "capacity": "2",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "120",
+        "name": "POD-09",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      }
+    ]
+  },
+  "21": {
+    "name": "Curved Monitors",
+    "room_count": 34,
+    "rooms": [
+      {
+        "id": "133",
+        "name": "M01 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "134",
+        "name": "M02 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "135",
+        "name": "M03 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "136",
+        "name": "M04 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "137",
+        "name": "M05 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "138",
+        "name": "M06 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "139",
+        "name": "M07 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "140",
+        "name": "M08 No-PC",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "141",
+        "name": "M09",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 21,
+        "busy": 2,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "142",
+        "name": "M10",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "143",
+        "name": "M11",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "144",
+        "name": "M12",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "145",
+        "name": "M13",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "146",
+        "name": "M14",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "147",
+        "name": "M15",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "148",
+        "name": "M16",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "149",
+        "name": "M17",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "150",
+        "name": "M18",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "151",
+        "name": "M19",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "152",
+        "name": "M20",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "153",
+        "name": "M21",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "154",
+        "name": "M22",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "155",
+        "name": "M23",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "156",
+        "name": "M24",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "157",
+        "name": "M25",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "158",
+        "name": "M26",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "159",
+        "name": "M27",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "160",
+        "name": "M28",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "161",
+        "name": "M29",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "162",
+        "name": "M30",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "163",
+        "name": "M31",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "164",
+        "name": "M32",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "165",
+        "name": "M33",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "166",
+        "name": "M34",
+        "capacity": null,
+        "total_slots": 27,
+        "free": 23,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      }
+    ]
+  },
+  "3": {
+    "name": "Group Study Rooms",
+    "room_count": 37,
+    "rooms": [
+      {
+        "id": "126",
+        "name": "1-350",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "28",
+        "name": "1-351",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "11",
+        "name": "1-352",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "90",
+        "name": "LG1-327",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "167",
+        "name": "LG1-328",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "168",
+        "name": "LG1- Media and Discussion",
+        "capacity": "10",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "169",
+        "name": "LG1-330",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "91",
+        "name": "LG1-353",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "43",
+        "name": "LG1-354",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "37",
+        "name": "LG1-355",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "89",
+        "name": "LG1-361",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "29",
+        "name": "LG1-362",
+        "capacity": "6",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "12",
+        "name": "LG1-363",
+        "capacity": "6",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "25",
+        "name": "LG3 Seminar",
+        "capacity": "16",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "93",
+        "name": "LG3-04",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "95",
+        "name": "LG3-05",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "131",
+        "name": "LG3-07",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "94",
+        "name": "LG3-08",
+        "capacity": "6",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "132",
+        "name": "LG3-09",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "13",
+        "name": "LG3-15",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 23,
+        "busy": 2,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "14",
+        "name": "LG3-16",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "15",
+        "name": "LG3-17",
+        "capacity": "10",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "44",
+        "name": "LG3-27",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "92",
+        "name": "LG4-02",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "39",
+        "name": "LG4-04",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "40",
+        "name": "LG4-05",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "30",
+        "name": "LG4-07",
+        "capacity": "8",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "31",
+        "name": "LG4-08",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "32",
+        "name": "LG4-09",
+        "capacity": "6",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "16",
+        "name": "LG4-14",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "17",
+        "name": "LG4-15",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 22,
+        "busy": 3,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "18",
+        "name": "LG4-16",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "76",
+        "name": "LG4-17",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 25,
+        "busy": 0,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "45",
+        "name": "LG4-27",
+        "capacity": "5",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 4,
+        "blocked": 4,
+        "bookable": true
+      },
+      {
+        "id": "127",
+        "name": "LG5-01",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 0,
+        "busy": 0,
+        "blocked": 29,
+        "bookable": false
+      },
+      {
+        "id": "128",
+        "name": "LG5-02",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 0,
+        "busy": 0,
+        "blocked": 29,
+        "bookable": false
+      },
+      {
+        "id": "129",
+        "name": "LG5-03",
+        "capacity": "4",
+        "total_slots": 29,
+        "free": 0,
+        "busy": 0,
+        "blocked": 29,
+        "bookable": false
+      }
+    ]
+  },
+  "6": {
+    "name": "Teaching Venues",
+    "room_count": 6,
+    "rooms": [
+      {
+        "id": "46",
+        "name": "E-Learning Classroom A",
+        "capacity": "32",
+        "total_slots": 29,
+        "free": 29,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      },
+      {
+        "id": "47",
+        "name": "E-Learning Classroom B",
+        "capacity": "42",
+        "total_slots": 29,
+        "free": 29,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      },
+      {
+        "id": "75",
+        "name": "EHPDCL",
+        "capacity": "2",
+        "total_slots": 29,
+        "free": 29,
+        "busy": 0,
+        "blocked": 0,
+        "bookable": true
+      },
+      {
+        "id": "42",
+        "name": "IC Learning Space",
+        "capacity": "15",
+        "total_slots": 29,
+        "free": 20,
+        "busy": 0,
+        "blocked": 9,
+        "bookable": true
+      },
+      {
+        "id": "27",
+        "name": "Multi-Function Room",
+        "capacity": "55",
+        "total_slots": 29,
+        "free": 21,
+        "busy": 8,
+        "blocked": 0,
+        "bookable": true
+      },
+      {
+        "id": "48",
+        "name": "Tutorial Spaces",
+        "capacity": "25",
+        "total_slots": 29,
+        "free": 0,
+        "busy": 29,
+        "blocked": 0,
+        "bookable": false
+      }
+    ]
+  },
+  "8": {
+    "name": "LC Study Rooms",
+    "room_count": 18,
+    "rooms": [
+      {
+        "id": "57",
+        "name": "LC-01",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 21,
+        "busy": 4,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "58",
+        "name": "LC-02",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "59",
+        "name": "LC-03",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "60",
+        "name": "LC-04",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "61",
+        "name": "LC-05",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "62",
+        "name": "LC-06",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "63",
+        "name": "LC-07",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "64",
+        "name": "LC-08",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "65",
+        "name": "LC-09",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "66",
+        "name": "LC-10",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "67",
+        "name": "LC-11",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "68",
+        "name": "LC-12",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "69",
+        "name": "LC-13",
+        "capacity": "7",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "70",
+        "name": "LC-14",
+        "capacity": "10",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "71",
+        "name": "LC-15",
+        "capacity": "10",
+        "total_slots": 48,
+        "free": 21,
+        "busy": 4,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "72",
+        "name": "LC-16",
+        "capacity": "10",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      },
+      {
+        "id": "73",
+        "name": "LC-17",
+        "capacity": "10",
+        "total_slots": 48,
+        "free": 25,
+        "busy": 0,
+        "blocked": 23,
+        "bookable": true
+      },
+      {
+        "id": "108",
+        "name": "LC-18",
+        "capacity": "6",
+        "total_slots": 48,
+        "free": 0,
+        "busy": 0,
+        "blocked": 48,
+        "bookable": false
+      }
+    ]
+  }
+}
