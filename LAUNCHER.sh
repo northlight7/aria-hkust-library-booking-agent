@@ -18,6 +18,12 @@ STAMP="$UV_DIR/.chromium-installed"
 # Everything Aria downloads lives inside this folder. Python, the voice
 # model, the sign-in browser, uv itself — deleting the folder removes it all.
 export UV_PYTHON_INSTALL_DIR="$ROOT/.uv/python"
+# uv also keeps a package cache and a tool dir. Left alone those go to
+# shared per-user directories that survive deleting this folder and reach
+# hundreds of megabytes, which contradicts what the README promises.
+export UV_CACHE_DIR="$ROOT/.uv/cache"
+export UV_TOOL_DIR="$ROOT/.uv/tools"
+export UV_TOOL_BIN_DIR="$ROOT/.uv/tools/bin"
 export PLAYWRIGHT_BROWSERS_PATH="$ROOT/.uv/playwright-browsers"
 
 say()  { echo "  $*"; }

@@ -20,6 +20,12 @@ set "STAMP=%UV_DIR%\.chromium-installed"
 REM Everything Aria downloads lives inside this folder. Python, the voice
 REM model, the sign-in browser, uv itself -- deleting the folder removes it all.
 set "UV_PYTHON_INSTALL_DIR=%ROOT%.uv\python"
+REM uv also keeps a package cache and a tool dir. Left alone those go to
+REM %LOCALAPPDATA%, survive deleting this folder, and reach hundreds of
+REM megabytes, which contradicts what the README promises.
+set "UV_CACHE_DIR=%ROOT%.uv\cache"
+set "UV_TOOL_DIR=%ROOT%.uv\tools"
+set "UV_TOOL_BIN_DIR=%ROOT%.uv\tools\bin"
 set "PLAYWRIGHT_BROWSERS_PATH=%ROOT%.uv\playwright-browsers"
 
 REM This script re-invokes itself with an "openWhenReady" argument to poll

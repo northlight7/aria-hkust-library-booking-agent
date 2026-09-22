@@ -1,0 +1,15 @@
+# cmd.exe seeks through a batch file as it runs. With LF-only endings that
+# seek can land mid-line, which breaks `goto` into labels and the multi-line
+# `if (...) else (...)` and `for /l ... do (...)` blocks this launcher is
+# built from.
+#
+# `-text`, not `text eol=crlf`: `text eol=crlf` stores the blob normalised to
+# LF and converts on checkout, which leaves the CRLF depending on whoever
+# generates the download. `-text` disables conversion, so the real CRLF bytes
+# are what a clone, a raw download and GitHub's Download ZIP all hand over.
+*.bat -text
+*.cmd -text
+
+# Shell scripts must stay LF, even when cloned on Windows.
+*.sh text eol=lf
+*.command text eol=lf

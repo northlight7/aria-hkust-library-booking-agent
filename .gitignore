@@ -3,3 +3,12 @@
 
 # Course deliverable copies, kept out of the public repo (Markdown lives in docs/)
 *.docx
+
+# Everything the launchers download lives here: uv itself, Python, the uv
+# package cache, and the Playwright sign-in browser. Hundreds of megabytes,
+# all regenerable, none of it belongs in git.
+.uv/
+
+# Working material for building the student tutorial (screenshots, build
+# script). Written for the builder, not for a reader of this repo.
+.internal/

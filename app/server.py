@@ -363,8 +363,28 @@ if __name__ == "__main__":
     import socketserver
     socketserver.TCPServer.allow_reuse_address = True
 
-    debug = os.environ.get("ARIA_DEBUG", "1") not in ("0", "false", "no")
+    # Debug OFF unless deliberately asked for. It used to default ON, which
+    # enabled the Werkzeug interactive debugger: a browser console that
+    # executes arbitrary Python in this process on any unhandled exception.
+    # Aria holds the user's HKUST session cookie, so that console is the
+    # whole account.
+    debug = os.environ.get("ARIA_DEBUG", "0") not in ("0", "false", "no")
     app.debug = debug
     _start_background_jobs()
     print("Aria Web App — http://localhost:8091")
-    app.run(host="0.0.0.0", port=8091, debug=debug, threaded=True)
+
+    # 127.0.0.1, NOT 0.0.0.0.
+    #
+    # 0.0.0.0 binds every network interface, so on shared Wi-Fi (campus,
+    # halls, a café) anyone on the same network could open this student's
+    # Aria at http://<their-laptop-ip>:8091 and use it. Verified: from a
+    # second machine on the LAN the page and /api/session both answered 200.
+    # Since Aria is signed in to HKUST as the user, a stranger could book
+    # rooms in their name, and with the old debug default could also reach
+    # the debugger console.
+    #
+    # Nothing needs the wider bind: the launcher opens localhost on this
+    # same machine. Set ARIA_HOST=0.0.0.0 deliberately if you ever want to
+    # reach it from your phone, and understand what you are opening.
+    host = os.environ.get("ARIA_HOST", "127.0.0.1")
+    app.run(host=host, port=8091, debug=debug, threaded=True)

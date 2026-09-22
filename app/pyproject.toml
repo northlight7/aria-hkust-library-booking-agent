@@ -20,6 +20,16 @@ dependencies = [
     # because there is no wheel and no sdist to fall back to.
     # kokoro-onnx needs >=1.20.1, so 1.23.2 satisfies it.
     "onnxruntime<=1.23.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    # ...and the opposite bound for ARM Windows (Snapdragon, Surface), which is
+    # the other end of the same problem. onnxruntime 1.23.2 ships no win_arm64
+    # wheel; 1.24.4 was the first that did, and from 1.24 there is no macOS
+    # x86_64 wheel. The two platforms cannot share a version.
+    #
+    # Stating BOTH bounds is what makes uv fork the resolution. With only the
+    # darwin bound above, uv picked a single version for every platform, chose
+    # 1.23.2 to satisfy it, and `uv sync` then failed outright on ARM Windows
+    # with no wheel and no usable sdist to fall back on.
+    "onnxruntime>=1.24.4; sys_platform == 'win32' and platform_machine == 'ARM64'",
 ]
 
 [dependency-groups]

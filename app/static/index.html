@@ -510,8 +510,8 @@
 
       <div class="field">
         <button class="save-btn" id="authBtn" type="button" style="height:40px;border-radius:10px;font-size:13px;font-weight:500;">Sign in with ITSC account</button>
-        <p class="field-hint" id="authHint" style="margin-top:8px;">A sign-in window opens in a separate app. Cmd+Tab or check your Dock to find it, then sign in with your HKUST credentials and come back here.</p>
-        <p class="auth-notice" id="authNotice" hidden>Sign-in window opened — <strong>Cmd+Tab</strong> or check your <strong>Dock</strong> to find the browser, sign in, then come back here.</p>
+        <p class="field-hint" id="authHint" style="margin-top:8px;"></p>
+        <p class="auth-notice" id="authNotice" hidden></p>
         <p class="field-hint" id="authBrowserHint" hidden></p>
       </div>
 
@@ -594,9 +594,28 @@
   var authError = document.getElementById('authError');
   var skipAuthBtn = document.getElementById('skipAuthBtn');
 
+  /* The sign-in browser opens as a SEPARATE app window, so the hint has to
+     tell people how to get to it. That instruction is different per platform
+     and used to be hardcoded to the Mac wording, which left Windows users
+     hunting for a Dock and a Cmd key that do not exist, on the one step that
+     already confuses people most. */
+  var IS_MAC = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent || '');
+  var SWITCH_KEY = IS_MAC ? 'Cmd+Tab' : 'Alt+Tab';
+  var SWITCH_PLACE = IS_MAC ? 'Dock' : 'taskbar';
+  function findWindowHint(){
+    return 'A sign-in window opens in a separate app. ' + SWITCH_KEY +
+           ' or check your ' + SWITCH_PLACE + ' to find it, then sign in with ' +
+           'your HKUST credentials and come back here.';
+  }
+
   /* ---------------------------------------------------------------- */
   /* Waveform bars                                                      */
   /* ---------------------------------------------------------------- */
+  authHint.textContent = findWindowHint();
+  authNotice.innerHTML = 'Sign-in window opened \u2014 <strong>' + SWITCH_KEY +
+    '</strong> or check your <strong>' + SWITCH_PLACE + '</strong> to find the ' +
+    'browser, sign in, then come back here.';
+
   var BAR_COUNT = 40;
   var bars = [];
   (function buildBars(){
@@ -1324,7 +1343,7 @@
           authBtn.disabled = false;
           var reason = data.reason === 'expired'
             ? 'Your session expired. Sign in again to check availability and book rooms.'
-            : 'A sign-in window opens in a separate app. Cmd+Tab or check your Dock to find it, then sign in and come back.';
+            : findWindowHint();
           authHint.textContent = reason;
           skipAuthBtn.textContent = 'Skip for now';
           skipAuthBtn.style.background = 'var(--bg-root)';
