@@ -73,8 +73,10 @@ if [ ! -f "$STAMP" ]; then
     if "$UV" run playwright install chromium; then
         touch "$STAMP"
     else
-        say "The sign-in browser did not install. Checking room availability"
-        say "will still work. Booking needs sign-in, so it will not."
+        say "The sign-in browser did not install. Aria needs it to sign in"
+        say "to HKUST, and the library site requires sign-in even to READ"
+        say "room availability, so neither checking nor booking will work"
+        say "until this succeeds. Re-run this launcher to try again."
     fi
 fi
 

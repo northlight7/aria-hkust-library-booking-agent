@@ -74,8 +74,10 @@ if not exist "%STAMP%" (
     if not errorlevel 1 (
         echo installed> "%STAMP%"
     ) else (
-        echo   The sign-in browser did not install. Checking room availability
-        echo   will still work. Booking needs sign-in, so it will not.
+        echo   The sign-in browser did not install. Aria needs it to sign in
+        echo   to HKUST, and the library site requires sign-in even to READ
+        echo   room availability, so neither checking nor booking will work
+        echo   until this succeeds. Re-run this launcher to try again.
     )
 )
 

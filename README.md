@@ -14,7 +14,9 @@ neural voice that runs locally on your machine.
 She reads the HKUST library booking site directly. That site runs on MRBS,
 which has no JSON API, so the HTML itself is the API: Aria parses the day
 page for free and booked rooms, and posts the real booking form to book.
-Checking is open; booking needs a one-time HKUST sign-in. Your words go only
+Both checking and booking need a one-time HKUST sign-in: the library site
+redirects anonymous visitors to CAS login, so even the day page is behind it.
+Your words go only
 to the AI provider you choose.
 
 ## Run it

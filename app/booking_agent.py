@@ -14,9 +14,12 @@ EXAMPLES
         --time 14:00-15:00 --title "Group meeting"
   python booking_agent.py login
 
-WHY TWO STEPS FOR BOOKING?
-  Reading the calendar is public, so 'available' just works.
-  Booking is behind HKUST login (CAS/Shibboleth). We do NOT store your password.
+WHY YOU HAVE TO LOG IN FIRST
+  Both reading and booking are behind HKUST login (CAS/Shibboleth). The
+  library site redirects anyone who is not signed in to cas.ust.hk, so even
+  'available' cannot read the day page until you have run 'login' once.
+  (This changed: the calendar used to be readable anonymously.)
+  We do NOT store your password.
   Instead, you log in once in a real browser; we keep the session cookie in a
   local file (auth_state.json) and reuse it. Delete that file to "log out".
 """

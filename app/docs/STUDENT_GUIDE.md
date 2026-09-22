@@ -44,7 +44,9 @@ Paste it into the dialog and click **Save & Continue**. Aria greets you by voice
 Your key is stored locally (`config.json`) and changeable via the ⚙ icon.
 
 ### 3. Sign in (only to book)
-Checking rooms is open. **Booking** needs your HKUST login:
+Both checking and booking need your HKUST login. The library site sends
+anyone who is not signed in to the CAS login page, so Aria cannot read the
+day page until you connect your account:
 1. Click the 🔒 icon.
 2. Sign in with your ITSC account in the browser that opens (+ 2FA).
 3. Click **I'm Done** when the calendar shows.
