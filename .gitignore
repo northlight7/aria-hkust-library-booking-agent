@@ -12,3 +12,7 @@
 # Working material for building the student tutorial (screenshots, build
 # script). Written for the builder, not for a reader of this repo.
 .internal/
+
+# Local working notes
+CLAUDE.md
+PROJECT.md
